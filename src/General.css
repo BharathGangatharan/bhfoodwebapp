@@ -1,0 +1,93 @@
+
+.Toaster-title {
+    font-weight: bold;
+    color: #198754;
+    font-size: 14px;
+}
+.Toaster-title-removed {
+    font-size: 14px;
+    font-weight: bold;
+    color: #dc3545;
+}
+
+.Empty-Cart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    flex-direction: column;
+}
+.Empty-Cart-container a {
+    margin-top: 25px;
+    text-decoration: none;
+    background: tomato;
+    padding: 12px;
+    color: #fff;
+    border-radius: 10px;
+}
+.Empty-Cart-container a:hover {
+    box-shadow: none;
+    text-decoration: none;
+    color: #fff;
+}
+
+.Empty-Cart-container h1 {
+    padding-bottom: 15px;
+}
+.footer-container {
+    padding: 50px 0 5px;
+    background: #6c757d;
+}
+.footer-container h2 {
+    text-align: center;
+    padding-bottom: 40px;
+    color:#fff;
+    font-size: 52px;
+    line-height: 45px;
+    font-family:sans-serif;
+}
+
+.footer-container .footer-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.footer-container .footer-links a {
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 40px;
+}
+
+.footer-bottom h5 {
+    color: #fff;
+}
+
+.footer-bottom span svg {
+    fill: #ff4c29;
+}
+
+@media only screen and (max-width: 767px){
+    .col-12 {
+        padding: 0 !important;
+    }
+
+    .footer-container .footer-links {
+        flex-direction: column;
+    }
+
+    .footer-container .footer-links a {
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+
+
+}

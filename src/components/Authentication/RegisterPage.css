@@ -1,0 +1,121 @@
+
+/* .Reg-container {
+    background: url('../../assets/images/Register_bg4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 515px;
+    width: 100%;
+} */
+
+
+.Reg-container .bg-image img{
+    width: 100%;
+}
+
+.Reg-container .register_wrapper {
+    position: absolute;
+    right: 10%;
+    top: 10%;
+    width: 35%;
+}
+
+.Reg-container .form_block input::placeholder {
+    font-size: 18px;
+}
+
+.Reg-container .form_block input {
+     border-radius: 12px;
+     border: 1px solid #000;;
+}
+
+.input_block{
+    margin-bottom: 15px; 
+}
+
+.Reg-container .form_block input:focus {
+    box-shadow: none;
+}
+
+.Reg-container .form-label {
+    color: #fff;
+    font-size: 20px;
+}
+
+.Reg-container .form_block .button {
+    width: 45%;
+    display: block;
+    margin: 40px auto 0;
+    background: #FF4C29;
+    border: none;
+}
+
+.Reg-container .form_block .button:hover {
+    background: #FF4C29;
+}
+
+
+.Error-Text {
+    color: red;
+    font-weight: bold;
+}
+
+.loaderImageBlock img {
+    width: 100px;
+    height: auto;
+    animation: moving 4s linear infinite forwards;
+}
+
+.login-bottom {
+    text-align: center;
+    color: #fff;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.login-bottom a {
+    color: #FF4C29;
+}
+
+.login-bottom a:hover {
+    color: #FF4C29;
+}
+
+@keyframes moving {
+
+    0%{
+        left: 20px;
+    }
+    100% {
+        transform: translateX(350px);
+    }
+}
+
+
+@media only screen and (max-width: 767px) { 
+
+
+    .Reg-container .form-label {
+        color: #000;
+    }
+
+    .Reg-container .register_wrapper {
+        position: relative;
+        right: 0;
+        top: 0;
+        width: 100%;
+        padding: 30px 30px 0;
+    }
+
+    .login-bottom {
+        color: #000;
+        font-size: 18px;
+    }
+
+    .Reg-container .form_block .button {
+        width: 100%;
+        padding: 10px 15px;
+        font-size: 20px;
+    }
+}

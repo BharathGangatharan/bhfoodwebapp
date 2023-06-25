@@ -1,0 +1,146 @@
+.account-block {
+    padding-bottom: 10%;
+}
+
+.userBlock_container {
+    max-width: 70%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.userBlock_container .userBlock {
+    display: flex;
+    justify-content: space-between;
+}
+.userBlock > div {
+    background-color: #fff;
+    padding: 10px 20px;
+}
+
+.userBlock > div:last-child {
+    background-color: #fff;
+    padding: 50px;
+}
+.userBlock_container .img-content img {
+    width: 100%;
+    max-width: 50px;
+}
+.img-content-right {
+    margin-left: 10px;
+}
+.UserMainBlock_left .content {
+    display: flex;
+}
+.my-details-links {
+    padding-top: 15px;
+}
+.my-details-links a {
+    display: inline-block;
+    margin-bottom: 18px;
+    text-decoration: none;
+    color: #333;
+}
+
+.my-details-links a:hover {
+    text-decoration: underline;
+    color: #333;
+}
+
+.my-details-links a:last-child {
+    text-decoration: none;
+    color: #fff;
+}
+
+.my-details-links a:last-child:hover {
+    text-decoration: none;
+    background-color: none;
+    box-shadow: none;
+}
+
+.my-details-links a {
+    width: 150px;
+    margin-left: 0;
+}
+.UserMainBlock_left .my-details {
+    padding-top: 50px;
+}
+
+.userBlock_container .userBlock .UserMainBlock_left {
+    flex: 0 0 38%;
+}
+
+.userBlock_container .userBlock .UserMainBlock_right {
+    flex: 0 0 60%;
+}
+.UserMainBlock_right > div > div.detail {
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    background-color: #fafafa;
+}
+
+.UserMainBlock_right > div {
+    margin-bottom: 70px;
+}
+
+.account-block {
+    background-color: #f1f3f6;
+}
+.account-block > h1 {
+    text-align: center;
+    padding: 35px 0 20px;
+    color: #082032;
+}
+
+
+.UserMainBlock h3 {
+    padding: 10px 0;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    .userBlock_container {
+        width: 87%;
+        max-width: 100%;
+    }
+
+    .userBlock_container .userBlock {
+        flex-direction: column;
+    }
+
+    .UserMainBlock_left .content {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .UserMainBlock_left .content .img-content-right {
+        font-size: 16px;
+    }
+
+    .UserMainBlock_left .content .img-content-right h5 {
+        font-size: 22px;
+    }
+
+    .img-content-right {
+        text-align: center;
+        margin-top: 11px;
+    }
+
+    .UserMainBlock_left .my-details {
+        text-align: center;
+    }
+
+    .UserMainBlock_left .my-details h5 {
+        font-size: 22px;
+    }
+
+    .my-details-links {
+        font-size: 22px;
+    }
+
+
+    .userBlock_container .userBlock .UserMainBlock_right {
+        padding: 50px 16px;
+    }
+}

@@ -1,0 +1,592 @@
+body, html {
+    height: 100%;
+  }
+button {
+    cursor: pointer;
+}
+
+button:focus, .btn:focus {
+    border: none;
+    box-shadow: none !important;
+}
+.bottomtotopicon {
+    font-size: 2rem;
+}
+.bottomtotop {
+    position: fixed;
+    bottom: 2rem;
+    right: 1rem;
+    border: none;
+    z-index: 2;
+}
+
+.MainModalContainer .btn-close {
+    display: none;
+}
+
+.MainModalContainer img {
+    width: 100%;
+}
+
+.MainModalContainer .modal-body {
+    padding: 0 !important;
+}
+
+.MainModalContainer .modal-content {
+    background: none;
+}
+
+.modalHeadClose {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 1;
+}
+.pizzaBannerContainer img {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+
+.pizzaBannerContainer {
+    position: relative;
+}
+
+.pizza-head-change {
+    color: tomato;
+}
+
+.pizzaBannerContainer .heading {
+    position: absolute;
+    left: 5%;
+    top: 30%;
+}
+.pizzaBannerContainer h1 {
+    color: #fff;
+    text-indent: -13px;
+    font-size: 3.5rem;
+}
+.foodListContainer, .filteredUItems {
+    padding: 60px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filteredUItems {
+    background: #c8ced7;
+}
+
+.foodListContainer .foodsImg, .FilterFoodsContainer .filterSideImage , .filteredUItems {
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+    padding: 15px 0;
+}
+.foodListContainer .col-md-4 {
+    padding: 30px 40px;
+}
+.foodListContainer .card .card-body {
+    text-align: center;
+    padding: 30px 0;
+    background: #ada3a1;
+}
+
+.foodListContainer .cardLike-block .heartLike {
+    fill: #FF4C29;
+}
+
+.foodListContainer .card .card-body .card-title,.card-text {
+    color: #fff;
+}
+.foodListContainer .card .card-body .btn.btn-primary {
+    color: tomato;
+    background: #fff;
+    border-color: #fff;
+}
+
+.selectTag {
+    position: relative;
+    top: 31%;
+    left: 10%;
+}
+
+#form-label-tag {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.FilterFoodsContainer > .row,.FilterFoodsContainer.items.row {
+    margin: 0;
+}
+
+.FilterFoodsContainer .items.row {
+    padding: 5%;
+}
+
+.FilterFoodsContainer .items.row > div {
+    padding: 2%;
+}
+
+.FilterFoodsContainer > .row:first-child > div:first-child{
+    background: #2C394B;
+    margin: 0;
+}
+
+.FilterFoodsContainer .foodsImg {
+    width: 250px;
+    margin: 0 auto;
+}
+
+.filteredUItems {
+    width: 100%;
+}
+
+
+.filteredUItems .card {
+    padding: 4%;
+    background-color: #2C394B;
+}
+
+.filteredUItems .card .card-body a {
+    text-decoration: none;
+}
+
+.filteredUItems .card .card-body .card-title, .card-text {
+    color: #000;
+}
+
+.filteredUItems .card .card-body .card-text {
+    color: #fff;
+}
+
+.filteredUItems .card .card-body .card-title {
+    color: tomato;
+}
+
+
+.filteredUItems button {
+    background: tomato;
+    color: #fff;
+    border: none;
+    margin-left: 40px;
+    width: 70%;
+    margin-top: 15px;
+}
+
+.filteredUItems .foodsImg:hover {
+    transform: scale(1.1);
+}
+
+.filteredUItems button:hover {
+    background: tomato;
+    color: #fff;
+}
+
+.FilterFoodsContainer > .row .mb-3 {
+    padding: 10px 30px;
+    margin: 0 !important;
+}
+.FilterFoodsContainer .form-select {
+    width: 70%;
+}
+
+.FilterEmptyBlock {
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.FilterEmptyBlock h1 {
+    color: #FF4C29;
+    padding-bottom: 2%;
+}
+
+.FilterEmptyBlock h3 {
+    color: #000
+}
+
+.selectedContentContainer .selectedImg {
+    width: 100%;
+    padding: 5%;
+}
+
+.selectedContentContainer .selectedPara {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.selectedTit {
+    color: tomato;
+    text-align: center;
+    width: 100%;
+}
+
+.selectedContentContainer-right > div {
+    text-align: center;
+    display: flex;
+    position: relative;
+}
+
+.chooseImageContainer {
+    display: flex;
+    position: relative;
+    top: -10px;
+}
+.image-block {
+    text-align: center;
+}
+.chooseImageContainer .image-block img {
+    width: 68%;
+    cursor: pointer;
+    border-radius: 25%;
+    padding: 6px;
+}
+
+.changeBorderColor {
+    border: 1px solid #FF4C29;
+}
+
+
+p.selectedPara {
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FF4C29;
+}
+
+.selectedContentContainer-right {
+    background: coral;
+}
+
+.q-block,.price-block {
+    display: flex;
+}
+.q-block {
+    justify-content: space-evenly;
+}
+.image-block h6 {
+    padding-top: 7%;
+    color: #fff;
+}
+.tot-block , .Grand-tot-block{
+    padding: 15px;
+    background: #082032;
+    border-radius: 20px;
+    color: #fff;
+}
+
+.tot-block {
+    margin: 25px 0 20px;
+}
+
+.tax-block {
+    padding-bottom: 10px;
+}
+.GrandTotal-block {
+    border-top: 1px solid #fff;
+    padding-top: 5px;
+}
+
+.q-block,.price-block {
+    align-items: center;
+}
+
+.price-block .qun-label {
+    margin-bottom: 0;
+}
+
+.price-block .qun {
+    margin: 0 16px 0 0;
+}
+
+.price-block .increaseIcon, .price-block .decreaseIcon {
+    margin: 0 10px;
+}
+
+.increaseIcon,.decreaseIcon {
+    cursor: pointer;
+    color: tomato;
+    background: #fff;
+    border-radius: 100%;
+    padding: 3px;
+    font-size: 20px;
+}
+
+.subtot-block,.tax-block,.GrandTotal-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.CarouselFoodContainer {
+    height: 750px;
+    background-color: #082032;
+}
+
+.CarouselFoodContainer .carousel-inner {
+    min-height: 700px;
+}
+
+.CarouselFoodContainer .carousel-img {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.CarouselFoodContainer .carousel-inner {
+    padding: 4% 0;
+}
+
+.CarouselFoodContainer .carousel-indicators {
+    margin-bottom: 0;
+}
+
+.CarouselFoodContainer .carousel-caption {
+    bottom: -8rem;
+}
+
+.CarouselFoodContainer .carousel-caption p {
+   width: 50%;
+   margin: 0 auto;
+}
+
+.CarouselFoodContainer .carousel-control-prev-icon, .CarouselFoodContainer .carousel-control-next-icon {
+    width: 6rem;
+    height: 6rem;
+}
+
+.bottomtotopicon {
+    fill: #FF4C29;
+    cursor: pointer;
+}
+
+.modalHeadClose {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.SearchFoodContainer .img-blck img {
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+}
+.SearchFoodContainer {
+    position: relative;
+}
+
+.SearchFoodTag {
+    width: 80%;
+    position: absolute;
+    top: 25%;
+    margin: 0 auto;
+    left:5%;
+    right: 5%;
+}
+
+.heartLike {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.heartLike-change {
+    color: red;
+}
+
+
+.no-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #000;
+    height: 520px;
+}
+
+.no-saved-itms{
+    width: 600px;
+    height: 300px;
+}
+
+.no-item-img-block {
+    position: relative;
+}
+.no-item-img-block h3 {
+    position: absolute;
+    top: 61%;
+    left: 32%;
+    color: #000;
+}
+.go-to-food {
+    display: inline-block;
+    background: #FF4C29;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5%;
+
+}
+.go-to-food a{
+    text-decoration: none;
+    color: #fff;
+}
+.go-to-food a h5{
+    margin: 0;
+}
+
+.go-to-food a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.small-block-container, .large-block-container {
+    display: flex;
+    justify-content:space-between;
+    padding: 5px 0;
+}
+
+.increaseIcon, .decreaseIcon {
+    margin: 0 10px;
+}
+
+.small-block, .large-block {
+    display: flex;
+}
+
+.small-block p, .large-block p {
+   padding: 0 10px;
+}
+
+.contact_form_block_container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 2% 0 5%;
+}
+
+.Contact-container {
+    background-color: #082032;
+}
+
+.contact_form_block_container .button {
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    background-color: #FF4C29;
+    border: none !important;
+    box-shadow: none;
+}
+
+.contact_form_block_container .button:hover {
+    background-color: #FF4C29;
+    border-color: none !important;
+}
+.contact_form_block_container .button:visited {
+    background-color: #FF4C29;
+}
+
+.contact_form_block_container .form-label {
+    color: #fff;
+}
+
+
+
+.contact_form_block_container input:focus, .contact_form_block_container textarea:focus{
+    box-shadow: none;
+}
+.Contact-container h1 {
+    text-align: center;
+    padding-top: 25px;
+    color: #fff;
+}
+
+
+
+
+
+@media only screen and (max-width: 767px) { 
+
+    
+
+    .pizzaBannerContainer .heading {
+        top: 83px;
+    }
+
+    .pizzaBannerContainer h1 {
+        font-size: 45px;
+    }
+    .pizzaBannerContainer img {
+        height: 400px;
+    }
+
+    .foodListContainer .col-md-4 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .foodListContainer .card .card-body .btn.btn-primary {
+        width: 80%;
+        margin: auto;
+    }
+
+    .foodListContainer .col-md-4 {
+        width: 100%;
+    }
+
+    .foodListContainer .card .card-body .card-title {
+        font-size: 30px;
+    }
+
+    .foodListContainer .card .card-body .card-text {
+        font-size: 22px;
+    }
+
+    .CarouselFoodContainer {
+        height: 100%;
+    }
+
+    .CarouselFoodContainer .carousel-img {
+        width: 50%;
+    }
+
+    .CarouselFoodContainer .carousel-indicators {
+        margin-bottom: 20px;
+    }
+
+    .CarouselFoodContainer .carousel-inner {
+        min-height: 520px;
+        padding: 4% 0;
+    }
+
+    .CarouselFoodContainer .carousel-caption {
+        bottom: -17rem;
+    }
+
+    .CarouselFoodContainer .carousel-caption h3 {
+        font-size: 32px;
+    }
+
+    .CarouselFoodContainer .carousel-caption p {
+        width: 100%;
+        font-size: 22px;
+    }
+
+    .contact_form_block_container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .contact_form_block_container .button {
+        width: 70%;
+        margin: 50px auto 20px;
+    }
+
+    .MainModalContainer img {
+        min-height: 500px;
+    }
+}
